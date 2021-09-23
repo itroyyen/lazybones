@@ -1,0 +1,32 @@
+### 0.2.1 (2010/02/22) ###
+* [fix] 修正 url() 相關函數功能
+* [fix] 修正 在某些Apache版本下無法正確於子目錄執行
+
+### 0.2.0 (2010/02/19) ###
+* [add] LZ_Config 增加 VIEW_ALWAYS_COMPILE 欄位
+        可於 db.conf.php 中 $config['VIEW_ALWAYS_COMPILE'] 設定總是編譯視圖
+* [add] Magic 語法增加使用 ! 符號抑制輸出
+* [add] 通用函數增加 beginSession() 與 endSession()
+* [upd] IDbDriver 介面改善
+* [upd] app::redirect() 具備自動儲存Session功能
+
+--------------------------------------------------------------------------
+### 0.1.2 (2010/02/12) ###
+* [add] 增加 /demos/ 底下 acl 範例
+* [upd] URL產生相關函數做了細部調整
+* [fix] 修正 LZ_Acl 無法正確讀取權限錯誤
+
+--------------------------------------------------------------------------
+### 0.1.1 (2010/02/11) ###
+* [add] LZ_Config 增加 TABLE_PREFIX 欄位
+        可於 db.conf.php 中 $config['TABLE_PREFIX'] 設定所有資料表名稱附加前綴 e.g. 'LAZY_'
+* [add] app 增加 redirectUrl() 成員，即結合 redirect() 與 getUrl() 兩種功能
+* [add] 增加 /demos/ 底下 i18n 與 url_router 兩種範例
+* [fix] 修正 app 成員 _loadLanguageFile / _loadLanguage 的存取範圍
+* [fix] Controller->v 格式修正
+* [fix] LZ_Route 過濾器錯誤修正
+* [fix] LZ_Route 若使用包含入口檔名時，具體指定路由發生無法匹配的錯誤
+
+--------------------------------------------------------------------------
+### 0.1.0 (2010/02/11) ###
+* Lazybones 首次釋出

@@ -1,0 +1,765 @@
+Version: 2.0.5
+TRACE START [2010-01-02 16:48:41]
+4	33	1	0.010629	995880
+4	34	0	0.010689	995880	define	0		E:\Working\royFramework\debug\lib\debug.php	1380
+4	34	1	0.010713	995880
+4	35	0	0.010738	995880	memory_get_usage	0		E:\Working\royFramework\debug\lib\debug.php	1382
+4	35	1	0.010898	995880
+4	36	0	0.010912	995880	define	0		E:\Working\royFramework\debug\lib\debug.php	1382
+4	36	1	0.010931	995880
+4	37	0	0.010945	995880	microtime	0		E:\Working\royFramework\debug\lib\debug.php	1383
+4	37	1	0.010973	995880
+4	38	0	0.010986	995880	define	0		E:\Working\royFramework\debug\lib\debug.php	1383
+4	38	1	0.011004	995880
+3	30	1	0.011017	995536
+2	12	1	0.011031	995024
+2	39	0	0.011046	988200	caclutime	1		E:\Working\royFramework\index.php	18
+3	40	0	0.011064	988400	microtime	0		E:\Working\royFramework\index.php	15
+3	40	1	0.011088	988400
+3	41	0	0.011101	988400	explode	0		E:\Working\royFramework\index.php	15
+3	41	1	0.011121	988496
+2	39	1	0.011138	988544
+2	42	0	0.011459	1003472	require	1	E:\Working\royFramework\config\main.conf.php	E:\Working\royFramework\index.php	21
+3	43	0	0.011483	1005568	define	0		E:\Working\royFramework\config\main.conf.php	9
+3	43	1	0.011502	1005584
+3	44	0	0.011515	1005608	define	0		E:\Working\royFramework\config\main.conf.php	10
+3	44	1	0.011534	1005608
+3	45	0	0.011551	1006048	dirname	0		E:\Working\royFramework\config\main.conf.php	31
+3	45	1	0.011570	1006104
+3	46	0	0.011582	1006104	str_replace	0		E:\Working\royFramework\config\main.conf.php	31
+3	46	1	0.011602	1006104
+3	47	0	0.011614	1006104	str_replace	0		E:\Working\royFramework\config\main.conf.php	31
+3	47	1	0.011633	1006104
+3	48	0	0.011648	1006104	str_replace	0		E:\Working\royFramework\config\main.conf.php	33
+3	48	1	0.011667	1006104
+3	49	0	0.011729	1006104	str_replace	0		E:\Working\royFramework\config\main.conf.php	33
+3	49	1	0.011751	1006104
+3	50	0	0.011764	1006104	strpos	0		E:\Working\royFramework\config\main.conf.php	34
+3	50	1	0.011782	1006104
+2	42	1	0.011808	1005104
+2	51	0	0.012800	1071480	require	1	E:\Working\royFramework\royJump\core\application\app.php	E:\Working\royFramework\index.php	23
+2	51	1	0.012829	1071480
+2	52	0	0.013064	1082632	require	1	E:\Working\royFramework\royJump\core\application\LZ_Config.php	E:\Working\royFramework\index.php	24
+2	52	1	0.013087	1082632
+2	53	0	0.013326	1102016	require	1	E:\Working\royFramework\app\app.php	E:\Working\royFramework\index.php	25
+2	53	1	0.013349	1102016
+2	54	0	0.013481	1109256	require	1	E:\Working\royFramework\config\app.conf.php	E:\Working\royFramework\index.php	26
+2	54	1	0.013504	1109272
+2	55	0	0.013921	1138120	require	1	E:\Working\royFramework\config\route.conf.php	E:\Working\royFramework\index.php	27
+2	55	1	0.013985	1148432
+2	56	0	0.014182	1139544	require	1	E:\Working\royFramework\config\db.conf.php	E:\Working\royFramework\index.php	34
+2	56	1	0.014218	1141000
+2	57	0	0.014236	1134464	app::conf	1		E:\Working\royFramework\index.php	40
+2	57	1	0.014270	1136024
+2	58	0	0.014286	1136024	royConfig->set	1		E:\Working\royFramework\index.php	40
+2	58	1	0.014326	1137560
+2	59	0	0.014342	1137560	app::run	1		E:\Working\royFramework\index.php	41
+3	60	0	0.014363	1138488	app::conf	1		E:\Working\royFramework\royJump\core\application\app.php	65
+3	60	1	0.014386	1138488
+3	61	0	0.014603	1147392	include	1	E:\Working\royFramework\royJump\framework.conf.php	E:\Working\royFramework\royJump\core\application\app.php	65
+3	61	1	0.014665	1156128
+3	62	0	0.014687	1149032	app::loadCore	1		E:\Working\royFramework\royJump\core\application\app.php	70
+4	63	0	0.014712	1149336	app::_loadCore	1		E:\Working\royFramework\royJump\core\application\app.php	150
+5	64	0	0.014738	1150768	app::conf	1		E:\Working\royFramework\royJump\core\application\app.php	169
+5	64	1	0.014760	1150768
+5	65	0	0.014776	1150824	app::load	1		E:\Working\royFramework\royJump\core\application\app.php	169
+6	66	0	0.014797	1151848	in_array	0		E:\Working\royFramework\royJump\core\application\app.php	119
+6	66	1	0.014817	1151848
+6	67	0	0.014834	1152024	file_exists	0		E:\Working\royFramework\royJump\core\application\app.php	126
+6	67	1	0.014917	1152024
+6	68	0	0.014933	1152024	is_array	0		E:\Working\royFramework\royJump\core\application\app.php	127
+6	68	1	0.014952	1152024
+6	69	0	0.015288	1174216	require	1	E:\Working\royFramework\royJump\core\Controller\LZ_Controller.php	E:\Working\royFramework\royJump\core\application\app.php	135
+6	69	1	0.015312	1174216
+5	65	1	0.015328	1172904
+4	63	1	0.015345	1171816
+3	62	1	0.015360	1171816
+3	70	0	0.015374	1171816	app::loadLibrary	1		E:\Working\royFramework\royJump\core\application\app.php	71
+4	71	0	0.015395	1172232	in_array	0		E:\Working\royFramework\royJump\core\application\app.php	228
+4	71	1	0.015414	1172232
+4	72	0	0.015429	1172232	app::conf	1		E:\Working\royFramework\royJump\core\application\app.php	232
+4	72	1	0.015450	1172232
+4	73	0	0.015763	1192464	require	1	E:\Working\royFramework\royJump\library\Common.php	E:\Working\royFramework\royJump\core\application\app.php	232
+4	73	1	0.015788	1192480
+3	70	1	0.015802	1191192
+3	74	0	0.015816	1191192	app::loadCore	1		E:\Working\royFramework\royJump\core\application\app.php	73
+4	75	0	0.015838	1191192	app::_loadCore	1		E:\Working\royFramework\royJump\core\application\app.php	150
+5	76	0	0.015862	1192280	app::conf	1		E:\Working\royFramework\royJump\core\application\app.php	169
+5	76	1	0.015883	1192280
+5	77	0	0.015897	1192280	app::load	1		E:\Working\royFramework\royJump\core\application\app.php	169
+6	78	0	0.015918	1193128	in_array	0		E:\Working\royFramework\royJump\core\application\app.php	119
+6	78	1	0.015938	1193128
+6	79	0	0.015954	1193256	file_exists	0		E:\Working\royFramework\royJump\core\application\app.php	126
+6	79	1	0.015991	1193256
+6	80	0	0.016006	1193256	is_array	0		E:\Working\royFramework\royJump\core\application\app.php	127
+6	80	1	0.016024	1193256
+6	81	0	0.017223	1308256	require	1	E:\Working\royFramework\royJump\core\uri\LZ_Router.php	E:\Working\royFramework\royJump\core\application\app.php	135
+6	81	1	0.017248	1308256
+5	77	1	0.017263	1306944
+5	82	0	0.017283	1306944	royRouter->__construct	1		E:\Working\royFramework\royJump\core\application\app.php	180
+5	82	1	0.017304	1306944
+4	75	1	0.017319	1305856
+3	74	1	0.017332	1305856
+3	83	0	0.017349	1305856	app::conf	1		E:\Working\royFramework\royJump\core\application\app.php	74
+3	83	1	0.017371	1305856
+3	84	0	0.017384	1305856	royRouter->execute	1		E:\Working\royFramework\royJump\core\application\app.php	74
+4	85	0	0.017407	1307400	royRouter->matchRoute	1		E:\Working\royFramework\royJump\core\uri\LZ_Router.php	31
+5	86	0	0.017428	1310552	strtolower	0		E:\Working\royFramework\royJump\core\uri\LZ_Router.php	85
+5	86	1	0.017448	1310552
+5	87	0	0.017462	1310552	royRouter->getPathInfo	1		E:\Working\royFramework\royJump\core\uri\LZ_Router.php	86
+5	87	1	0.017485	1310728
+5	88	0	0.017499	1310728	trim	0		E:\Working\royFramework\royJump\core\uri\LZ_Router.php	87
+5	88	1	0.017518	1310728
+5	89	0	0.017531	1310728	str_replace	0		E:\Working\royFramework\royJump\core\uri\LZ_Router.php	88
+5	89	1	0.017561	1310792
+5	90	0	0.017575	1310792	explode	0		E:\Working\royFramework\royJump\core\uri\LZ_Router.php	92
+5	90	1	0.017597	1311448
+5	91	0	0.017610	1311448	count	0		E:\Working\royFramework\royJump\core\uri\LZ_Router.php	93
+5	91	1	0.017630	1311448
+5	92	0	0.017650	1311664	array_merge	0		E:\Working\royFramework\royJump\core\uri\LZ_Router.php	117
+5	92	1	0.017678	1313928
+5	93	0	0.017694	1314008	trim	0		E:\Working\royFramework\royJump\core\uri\LZ_Router.php	120
+5	93	1	0.017712	1314024
+5	94	0	0.017725	1314024	explode	0		E:\Working\royFramework\royJump\core\uri\LZ_Router.php	120
+5	94	1	0.017744	1314048
+5	95	0	0.017756	1314048	count	0		E:\Working\royFramework\royJump\core\uri\LZ_Router.php	121
+5	95	1	0.017775	1314048
+5	96	0	0.017791	1314096	trim	0		E:\Working\royFramework\royJump\core\uri\LZ_Router.php	120
+5	96	1	0.017810	1314112
+5	97	0	0.017822	1314112	explode	0		E:\Working\royFramework\royJump\core\uri\LZ_Router.php	120
+5	97	1	0.017841	1314136
+5	98	0	0.017854	1314136	count	0		E:\Working\royFramework\royJump\core\uri\LZ_Router.php	121
+5	98	1	0.017875	1314136
+5	99	0	0.017890	1314136	trim	0		E:\Working\royFramework\royJump\core\uri\LZ_Router.php	120
+5	99	1	0.017909	1314160
+5	100	0	0.017921	1314160	explode	0		E:\Working\royFramework\royJump\core\uri\LZ_Router.php	120
+5	100	1	0.017940	1314328
+5	101	0	0.017953	1314328	count	0		E:\Working\royFramework\royJump\core\uri\LZ_Router.php	121
+5	101	1	0.017971	1314328
+5	102	0	0.017985	1314328	trim	0		E:\Working\royFramework\royJump\core\uri\LZ_Router.php	120
+5	102	1	0.018005	1314328
+5	103	0	0.018017	1314328	explode	0		E:\Working\royFramework\royJump\core\uri\LZ_Router.php	120
+5	103	1	0.018035	1314416
+5	104	0	0.018048	1314416	count	0		E:\Working\royFramework\royJump\core\uri\LZ_Router.php	121
+5	104	1	0.018066	1314416
+5	105	0	0.018081	1314416	trim	0		E:\Working\royFramework\royJump\core\uri\LZ_Router.php	120
+5	105	1	0.018099	1314416
+5	106	0	0.018112	1314416	explode	0		E:\Working\royFramework\royJump\core\uri\LZ_Router.php	120
+5	106	1	0.018131	1314416
+5	107	0	0.018144	1314416	count	0		E:\Working\royFramework\royJump\core\uri\LZ_Router.php	121
+5	107	1	0.018162	1314416
+5	108	0	0.018176	1314416	trim	0		E:\Working\royFramework\royJump\core\uri\LZ_Router.php	120
+5	108	1	0.018194	1314416
+5	109	0	0.018207	1314416	explode	0		E:\Working\royFramework\royJump\core\uri\LZ_Router.php	120
+5	109	1	0.018226	1314416
+5	110	0	0.018239	1314416	count	0		E:\Working\royFramework\royJump\core\uri\LZ_Router.php	121
+5	110	1	0.018257	1314416
+5	111	0	0.018272	1314416	trim	0		E:\Working\royFramework\royJump\core\uri\LZ_Router.php	120
+5	111	1	0.018290	1314448
+5	112	0	0.018303	1314448	explode	0		E:\Working\royFramework\royJump\core\uri\LZ_Router.php	120
+5	112	1	0.018323	1314576
+5	113	0	0.018335	1314576	count	0		E:\Working\royFramework\royJump\core\uri\LZ_Router.php	121
+5	113	1	0.018354	1314576
+5	114	0	0.018368	1314576	trim	0		E:\Working\royFramework\royJump\core\uri\LZ_Router.php	120
+5	114	1	0.018387	1314576
+5	115	0	0.018399	1314576	explode	0		E:\Working\royFramework\royJump\core\uri\LZ_Router.php	120
+5	115	1	0.018419	1314752
+5	116	0	0.018432	1314752	count	0		E:\Working\royFramework\royJump\core\uri\LZ_Router.php	121
+5	116	1	0.018451	1314752
+5	117	0	0.018465	1314752	trim	0		E:\Working\royFramework\royJump\core\uri\LZ_Router.php	120
+5	117	1	0.018484	1314752
+5	118	0	0.018496	1314752	explode	0		E:\Working\royFramework\royJump\core\uri\LZ_Router.php	120
+5	118	1	0.018523	1314752
+5	119	0	0.018537	1314752	count	0		E:\Working\royFramework\royJump\core\uri\LZ_Router.php	121
+5	119	1	0.018556	1314752
+5	120	0	0.018570	1314752	trim	0		E:\Working\royFramework\royJump\core\uri\LZ_Router.php	120
+5	120	1	0.018589	1314752
+5	121	0	0.018601	1314752	explode	0		E:\Working\royFramework\royJump\core\uri\LZ_Router.php	120
+5	121	1	0.018620	1314752
+5	122	0	0.018632	1314752	count	0		E:\Working\royFramework\royJump\core\uri\LZ_Router.php	121
+5	122	1	0.018651	1314752
+5	123	0	0.018667	1314752	substr	0		E:\Working\royFramework\royJump\core\uri\LZ_Router.php	136
+5	123	1	0.018687	1314752
+5	124	0	0.018701	1314752	trim	0		E:\Working\royFramework\royJump\core\uri\LZ_Router.php	120
+5	124	1	0.018720	1314752
+5	125	0	0.018733	1314752	explode	0		E:\Working\royFramework\royJump\core\uri\LZ_Router.php	120
+5	125	1	0.018751	1314752
+5	126	0	0.018765	1314752	count	0		E:\Working\royFramework\royJump\core\uri\LZ_Router.php	121
+5	126	1	0.018783	1314752
+5	127	0	0.018798	1314752	trim	0		E:\Working\royFramework\royJump\core\uri\LZ_Router.php	120
+5	127	1	0.018816	1314752
+5	128	0	0.018828	1314752	explode	0		E:\Working\royFramework\royJump\core\uri\LZ_Router.php	120
+5	128	1	0.018848	1314824
+5	129	0	0.018860	1314824	count	0		E:\Working\royFramework\royJump\core\uri\LZ_Router.php	121
+5	129	1	0.018879	1314824
+5	130	0	0.018893	1314824	substr	0		E:\Working\royFramework\royJump\core\uri\LZ_Router.php	136
+5	130	1	0.018912	1314824
+5	131	0	0.018926	1314824	trim	0		E:\Working\royFramework\royJump\core\uri\LZ_Router.php	120
+5	131	1	0.018945	1314824
+5	132	0	0.018957	1314824	explode	0		E:\Working\royFramework\royJump\core\uri\LZ_Router.php	120
+5	132	1	0.018979	1314824
+5	133	0	0.018992	1314824	count	0		E:\Working\royFramework\royJump\core\uri\LZ_Router.php	121
+5	133	1	0.019010	1314824
+5	134	0	0.019028	1314824	trim	0		E:\Working\royFramework\royJump\core\uri\LZ_Router.php	120
+5	134	1	0.019047	1314824
+5	135	0	0.019060	1314824	explode	0		E:\Working\royFramework\royJump\core\uri\LZ_Router.php	120
+5	135	1	0.019079	1314824
+5	136	0	0.019092	1314824	count	0		E:\Working\royFramework\royJump\core\uri\LZ_Router.php	121
+5	136	1	0.019110	1314824
+5	137	0	0.019125	1314824	trim	0		E:\Working\royFramework\royJump\core\uri\LZ_Router.php	120
+5	137	1	0.019143	1314824
+5	138	0	0.019156	1314824	explode	0		E:\Working\royFramework\royJump\core\uri\LZ_Router.php	120
+5	138	1	0.019174	1314824
+5	139	0	0.019188	1314824	count	0		E:\Working\royFramework\royJump\core\uri\LZ_Router.php	121
+5	139	1	0.019206	1314824
+5	140	0	0.019221	1314824	substr	0		E:\Working\royFramework\royJump\core\uri\LZ_Router.php	136
+5	140	1	0.019239	1314824
+5	141	0	0.019253	1314824	trim	0		E:\Working\royFramework\royJump\core\uri\LZ_Router.php	120
+5	141	1	0.019272	1314824
+5	142	0	0.019284	1314824	explode	0		E:\Working\royFramework\royJump\core\uri\LZ_Router.php	120
+5	142	1	0.019303	1314824
+5	143	0	0.019316	1314824	count	0		E:\Working\royFramework\royJump\core\uri\LZ_Router.php	121
+5	143	1	0.019334	1314824
+5	144	0	0.019348	1314824	trim	0		E:\Working\royFramework\royJump\core\uri\LZ_Router.php	120
+5	144	1	0.019367	1314824
+5	145	0	0.019379	1314824	explode	0		E:\Working\royFramework\royJump\core\uri\LZ_Router.php	120
+5	145	1	0.019398	1314824
+5	146	0	0.019410	1314824	count	0		E:\Working\royFramework\royJump\core\uri\LZ_Router.php	121
+5	146	1	0.019429	1314824
+4	85	1	0.019445	1311728
+4	147	0	0.019467	1311728	royRouter->_executeAutoRoute	1		E:\Working\royFramework\royJump\core\uri\LZ_Router.php	38
+5	148	0	0.019489	1312504	royRouter->getPathInfo	1		E:\Working\royFramework\royJump\core\uri\LZ_Router.php	288
+5	148	1	0.019529	1312504
+5	149	0	0.019543	1312504	trim	0		E:\Working\royFramework\royJump\core\uri\LZ_Router.php	289
+5	149	1	0.019562	1312504
+5	150	0	0.019574	1312504	explode	0		E:\Working\royFramework\royJump\core\uri\LZ_Router.php	289
+5	150	1	0.019595	1312504
+5	151	0	0.019610	1312504	royRouter->_nameFormat	1		E:\Working\royFramework\royJump\core\uri\LZ_Router.php	291
+6	152	0	0.019630	1312504	str_replace	0		E:\Working\royFramework\royJump\core\uri\LZ_Router.php	320
+6	152	1	0.019649	1312504
+6	153	0	0.019662	1312504	ucwords	0		E:\Working\royFramework\royJump\core\uri\LZ_Router.php	320
+6	153	1	0.019681	1312504
+6	154	0	0.019695	1312504	str_replace	0		E:\Working\royFramework\royJump\core\uri\LZ_Router.php	321
+6	154	1	0.019714	1312504
+5	151	1	0.019728	1312504
+5	155	0	0.019742	1312504	royRouter->_nameFormat	1		E:\Working\royFramework\royJump\core\uri\LZ_Router.php	292
+6	156	0	0.019762	1312504	str_replace	0		E:\Working\royFramework\royJump\core\uri\LZ_Router.php	320
+6	156	1	0.019781	1312504
+6	157	0	0.019793	1312504	ucwords	0		E:\Working\royFramework\royJump\core\uri\LZ_Router.php	320
+6	157	1	0.019813	1312504
+6	158	0	0.019826	1312504	str_replace	0		E:\Working\royFramework\royJump\core\uri\LZ_Router.php	321
+6	158	1	0.019845	1312504
+5	155	1	0.019859	1312504
+5	159	0	0.019872	1312504	count	0		E:\Working\royFramework\royJump\core\uri\LZ_Router.php	295
+5	159	1	0.019890	1312504
+5	160	0	0.019907	1312504	royRouter->_pushVars	1		E:\Working\royFramework\royJump\core\uri\LZ_Router.php	298
+5	160	1	0.019931	1312504
+5	161	0	0.019947	1312504	royRouter->_pushVars	1		E:\Working\royFramework\royJump\core\uri\LZ_Router.php	298
+5	161	1	0.019968	1312504
+5	162	0	0.019985	1312504	royRouter->_pushVars	1		E:\Working\royFramework\royJump\core\uri\LZ_Router.php	298
+5	162	1	0.020006	1312504
+5	163	0	0.020022	1312504	royRouter->_pushVars	1		E:\Working\royFramework\royJump\core\uri\LZ_Router.php	298
+5	163	1	0.020043	1312504
+5	164	0	0.020059	1312504	royRouter->_pushVars	1		E:\Working\royFramework\royJump\core\uri\LZ_Router.php	298
+5	164	1	0.020080	1312504
+5	165	0	0.020096	1312504	royRouter->_pushVars	1		E:\Working\royFramework\royJump\core\uri\LZ_Router.php	298
+5	165	1	0.020158	1312504
+5	166	0	0.020175	1312504	royRouter->_runController	1		E:\Working\royFramework\royJump\core\uri\LZ_Router.php	300
+6	167	0	0.020198	1313112	royRouter->_isControllerExists	1		E:\Working\royFramework\royJump\core\uri\LZ_Router.php	266
+7	168	0	0.020220	1313112	app::conf	1		E:\Working\royFramework\royJump\core\uri\LZ_Router.php	310
+7	168	1	0.020242	1313360
+7	169	0	0.020257	1313360	file_exists	0		E:\Working\royFramework\royJump\core\uri\LZ_Router.php	311
+7	169	1	0.020296	1313360
+6	167	1	0.020311	1313360
+6	170	0	0.020327	1313360	app::loadController	1		E:\Working\royFramework\royJump\core\uri\LZ_Router.php	274
+7	171	0	0.020347	1313360	app::conf	1		E:\Working\royFramework\royJump\core\application\app.php	200
+7	171	1	0.020369	1313360
+7	172	0	0.020384	1313360	app::load	1		E:\Working\royFramework\royJump\core\application\app.php	201
+8	173	0	0.020404	1314232	in_array	0		E:\Working\royFramework\royJump\core\application\app.php	119
+8	173	1	0.020425	1314232
+8	174	0	0.020440	1314280	file_exists	0		E:\Working\royFramework\royJump\core\application\app.php	126
+8	174	1	0.020483	1314280
+8	175	0	0.020498	1314280	is_array	0		E:\Working\royFramework\royJump\core\application\app.php	127
+8	175	1	0.020516	1314280
+8	176	0	0.020722	1326704	require	1	E:\Working\royFramework\app\Controller\DbTestController.php	E:\Working\royFramework\royJump\core\application\app.php	135
+8	176	1	0.020747	1326728
+8	177	0	0.020764	1326280	royController->__construct	1		E:\Working\royFramework\royJump\core\application\app.php	136
+8	177	1	0.020786	1326296
+7	172	1	0.020800	1325472
+6	170	1	0.020815	1325472
+6	178	0	0.020828	1325472	royController->init	1		E:\Working\royFramework\royJump\core\uri\LZ_Router.php	275
+7	179	0	0.020851	1325720	array_merge	0		E:\Working\royFramework\royJump\core\Controller\LZ_Controller.php	72
+7	179	1	0.020873	1326568
+6	178	1	0.020889	1326568
+6	180	0	0.020903	1326568	royController->executeAction	1		E:\Working\royFramework\royJump\core\uri\LZ_Router.php	276
+7	181	0	0.020924	1326568	method_exists	0		E:\Working\royFramework\royJump\core\Controller\LZ_Controller.php	43
+7	181	1	0.020945	1326568
+7	182	0	0.020959	1326568	DbTestController->index	1		E:\Working\royFramework\royJump\core\Controller\LZ_Controller.php	45
+8	183	0	0.020979	1327240	app::loadModel	1		E:\Working\royFramework\app\Controller\DbTestController.php	6
+9	184	0	0.021000	1327272	app::loadCore	1		E:\Working\royFramework\royJump\core\application\app.php	190
+10	185	0	0.021052	1327496	app::_loadCore	1		E:\Working\royFramework\royJump\core\application\app.php	150
+11	186	0	0.021076	1328832	app::loadCore	1		E:\Working\royFramework\royJump\core\application\app.php	163
+12	187	0	0.021099	1329272	app::_loadCore	1		E:\Working\royFramework\royJump\core\application\app.php	150
+13	188	0	0.021122	1330608	app::conf	1		E:\Working\royFramework\royJump\core\application\app.php	157
+13	188	1	0.021145	1330648
+13	189	0	0.021160	1330728	app::load	1		E:\Working\royFramework\royJump\core\application\app.php	157
+14	190	0	0.021181	1331728	in_array	0		E:\Working\royFramework\royJump\core\application\app.php	119
+14	190	1	0.021201	1331728
+14	191	0	0.021217	1331808	file_exists	0		E:\Working\royFramework\royJump\core\application\app.php	126
+14	191	1	0.021254	1331808
+14	192	0	0.021269	1331808	is_array	0		E:\Working\royFramework\royJump\core\application\app.php	127
+14	192	1	0.021287	1331808
+14	193	0	0.021609	1354432	require	1	E:\Working\royFramework\royJump\core\model\LZ_IDbDriver.php	E:\Working\royFramework\royJump\core\application\app.php	135
+14	193	1	0.021635	1354480
+13	189	1	0.021650	1353168
+12	187	1	0.021677	1352080
+11	186	1	0.021692	1352080
+11	194	0	0.021709	1352080	app::conf	1		E:\Working\royFramework\royJump\core\application\app.php	169
+11	194	1	0.021730	1352080
+11	195	0	0.021745	1352080	app::load	1		E:\Working\royFramework\royJump\core\application\app.php	169
+12	196	0	0.021766	1352904	in_array	0		E:\Working\royFramework\royJump\core\application\app.php	119
+12	196	1	0.021790	1352904
+12	197	0	0.021808	1353032	file_exists	0		E:\Working\royFramework\royJump\core\application\app.php	126
+12	197	1	0.022046	1353032
+12	198	0	0.022062	1353032	is_array	0		E:\Working\royFramework\royJump\core\application\app.php	127
+12	198	1	0.022081	1353032
+12	199	0	0.023586	1484208	require	1	E:\Working\royFramework\royJump\core\model\LZ_Model.php	E:\Working\royFramework\royJump\core\application\app.php	135
+12	199	1	0.023612	1484208
+11	195	1	0.023627	1482896
+10	185	1	0.023645	1481808
+9	184	1	0.023659	1481808
+9	200	0	0.023675	1481808	app::conf	1		E:\Working\royFramework\royJump\core\application\app.php	191
+9	200	1	0.023698	1481808
+9	201	0	0.023712	1481808	app::load	1		E:\Working\royFramework\royJump\core\application\app.php	191
+10	202	0	0.023733	1482632	in_array	0		E:\Working\royFramework\royJump\core\application\app.php	119
+10	202	1	0.023754	1482632
+10	203	0	0.023772	1482632	file_exists	0		E:\Working\royFramework\royJump\core\application\app.php	126
+10	203	1	0.024305	1482632
+10	204	0	0.024326	1482632	is_array	0		E:\Working\royFramework\royJump\core\application\app.php	127
+10	204	1	0.024346	1482632
+10	205	0	0.024676	1496600	require	1	E:\Working\royFramework\app\model\UserModel.php	E:\Working\royFramework\royJump\core\application\app.php	135
+10	205	1	0.024702	1496616
+9	201	1	0.024717	1495208
+8	183	1	0.024732	1495208
+8	206	0	0.024752	1495712	royModel->__construct	1		E:\Working\royFramework\app\Controller\DbTestController.php	7
+9	207	0	0.024773	1496200	get_class	0		E:\Working\royFramework\royJump\core\model\LZ_Model.php	65
+9	207	1	0.024793	1496224
+9	208	0	0.024809	1496304	royModel->_convertTableName	1		E:\Working\royFramework\royJump\core\model\LZ_Model.php	66
+10	209	0	0.024829	1496696	strrpos	0		E:\Working\royFramework\royJump\core\model\LZ_Model.php	415
+10	209	1	0.024850	1496696
+10	210	0	0.024865	1496840	substr	0		E:\Working\royFramework\royJump\core\model\LZ_Model.php	417
+10	210	1	0.024884	1496840
+10	211	0	0.024896	1496840	splitUpper	1		E:\Working\royFramework\royJump\core\model\LZ_Model.php	417
+11	212	0	0.024916	1497720	str_split	0		E:\Working\royFramework\royJump\library\Common.php	50
+11	212	1	0.024938	1498112
+11	213	0	0.024951	1498184	count	0		E:\Working\royFramework\royJump\library\Common.php	51
+11	213	1	0.024970	1498184
+11	214	0	0.024988	1498552	ord	0		E:\Working\royFramework\royJump\library\Common.php	56
+11	214	1	0.025007	1498552
+11	215	0	0.025021	1498552	ord	0		E:\Working\royFramework\royJump\library\Common.php	56
+11	215	1	0.025039	1498552
+11	216	0	0.025056	1498552	ord	0		E:\Working\royFramework\royJump\library\Common.php	56
+11	216	1	0.025075	1498552
+11	217	0	0.025087	1498552	ord	0		E:\Working\royFramework\royJump\library\Common.php	56
+11	217	1	0.025106	1498552
+11	218	0	0.025120	1498552	ord	0		E:\Working\royFramework\royJump\library\Common.php	56
+11	218	1	0.025138	1498552
+11	219	0	0.025151	1498552	ord	0		E:\Working\royFramework\royJump\library\Common.php	56
+11	219	1	0.025169	1498552
+11	220	0	0.025183	1498552	ord	0		E:\Working\royFramework\royJump\library\Common.php	56
+11	220	1	0.025201	1498552
+11	221	0	0.025213	1498552	ord	0		E:\Working\royFramework\royJump\library\Common.php	56
+11	221	1	0.025231	1498552
+10	211	1	0.025249	1497896
+10	222	0	0.025265	1497896	join	0		E:\Working\royFramework\royJump\core\model\LZ_Model.php	418
+10	222	1	0.025285	1497896
+10	223	0	0.025297	1497896	strtolower	0		E:\Working\royFramework\royJump\core\model\LZ_Model.php	418
+10	223	1	0.025317	1497896
+9	208	1	0.025330	1497624
+9	224	0	0.025347	1497624	get_class_vars	0		E:\Working\royFramework\royJump\core\model\LZ_Model.php	68
+9	224	1	0.025370	1497624
+8	206	1	0.025393	1497208
+8	225	0	0.025410	1497208	royModel->where	1		E:\Working\royFramework\app\Controller\DbTestController.php	9
+8	225	1	0.025435	1497432
+8	226	0	0.025449	1497432	royModel->find	1		E:\Working\royFramework\app\Controller\DbTestController.php	17
+9	227	0	0.025469	1497776	app::db	1		E:\Working\royFramework\royJump\core\model\LZ_Model.php	109
+10	228	0	0.025496	1498240	app::conf	1		E:\Working\royFramework\royJump\core\application\app.php	105
+10	228	1	0.025518	1498256
+10	229	0	0.025531	1498256	app::conf	1		E:\Working\royFramework\royJump\core\application\app.php	105
+10	229	1	0.025551	1498256
+10	230	0	0.025569	1498344	app::loadCore	1		E:\Working\royFramework\royJump\core\application\app.php	106
+11	231	0	0.025591	1498544	app::_loadCore	1		E:\Working\royFramework\royJump\core\application\app.php	150
+12	232	0	0.025615	1499840	app::conf	1		E:\Working\royFramework\royJump\core\application\app.php	157
+12	232	1	0.025636	1499864
+12	233	0	0.025650	1499944	app::load	1		E:\Working\royFramework\royJump\core\application\app.php	157
+13	234	0	0.025672	1500992	in_array	0		E:\Working\royFramework\royJump\core\application\app.php	119
+13	234	1	0.025693	1500992
+12	233	1	0.025707	1500168
+12	235	0	0.025724	1500168	app::_loadCore	1		E:\Working\royFramework\royJump\core\application\app.php	175
+13	236	0	0.025746	1501312	app::conf	1		E:\Working\royFramework\royJump\core\application\app.php	169
+13	236	1	0.025767	1501312
+13	237	0	0.025781	1501312	app::load	1		E:\Working\royFramework\royJump\core\application\app.php	169
+14	238	0	0.025801	1502336	in_array	0		E:\Working\royFramework\royJump\core\application\app.php	119
+14	238	1	0.025821	1502336
+14	239	0	0.025838	1502608	file_exists	0		E:\Working\royFramework\royJump\core\application\app.php	126
+14	239	1	0.025888	1502608
+14	240	0	0.025903	1502608	is_array	0		E:\Working\royFramework\royJump\core\application\app.php	127
+14	240	1	0.025922	1502608
+14	241	0	0.026557	1562648	require	1	E:\Working\royFramework\royJump\core\model\driver\LZ_MySql.php	E:\Working\royFramework\royJump\core\application\app.php	135
+14	241	1	0.026594	1562648
+13	237	1	0.026610	1561048
+13	242	0	0.026631	1561048	royMySQL->__construct	1		E:\Working\royFramework\royJump\core\application\app.php	180
+14	243	0	0.026652	1561392	app::conf	1		E:\Working\royFramework\royJump\core\model\driver\LZ_MySql.php	15
+14	243	1	0.026675	1561392
+14	244	0	0.026690	1561392	royConfig->getActiveDbConfig	1		E:\Working\royFramework\royJump\core\model\driver\LZ_MySql.php	15
+14	244	1	0.026714	1561440
+14	245	0	0.026730	1561440	royMySQL->reconnect	1		E:\Working\royFramework\royJump\core\model\driver\LZ_MySql.php	16
+15	246	0	0.026751	1561592	mysql_connect	0		E:\Working\royFramework\royJump\core\model\driver\LZ_MySql.php	21
+15	246	1	0.027797	1562688
+15	247	0	0.027829	1562688	mysql_select_db	0		E:\Working\royFramework\royJump\core\model\driver\LZ_MySql.php	22
+15	247	1	0.027956	1562688
+14	245	1	0.027977	1562688
+14	248	0	0.027996	1562688	royMySQL->setEncoding	1		E:\Working\royFramework\royJump\core\model\driver\LZ_MySql.php	17
+14	248	1	0.028019	1562688
+13	242	1	0.028034	1562344
+12	235	1	0.028048	1561256
+11	231	1	0.028062	1560168
+10	230	1	0.028077	1560168
+9	227	1	0.028095	1559704
+9	249	0	0.028114	1559704	royModel->getFindSQL	1		E:\Working\royFramework\royJump\core\model\LZ_Model.php	110
+10	250	0	0.028144	1560984	royModel->_getWhere	1		E:\Working\royFramework\royJump\core\model\LZ_Model.php	387
+11	251	0	0.028180	1562984	royModel->getFieldsOnlySelf	1		E:\Working\royFramework\royJump\core\model\LZ_Model.php	316
+11	251	1	0.028211	1563208
+11	252	0	0.028230	1563208	count	0		E:\Working\royFramework\royJump\core\model\LZ_Model.php	344
+11	252	1	0.028250	1563208
+11	253	0	0.028264	1563208	join	0		E:\Working\royFramework\royJump\core\model\LZ_Model.php	350
+11	253	1	0.028283	1563208
+11	254	0	0.028298	1563208	count	0		E:\Working\royFramework\royJump\core\model\LZ_Model.php	353
+11	254	1	0.028317	1563208
+11	255	0	0.028336	1563208	royModel->_bindParam	1		E:\Working\royFramework\royJump\core\model\LZ_Model.php	356
+12	256	0	0.028359	1564992	app::db	1		E:\Working\royFramework\royJump\core\model\LZ_Model.php	430
+12	256	1	0.028381	1565016
+12	257	0	0.028396	1565136	preg_match_all	0		E:\Working\royFramework\royJump\core\model\LZ_Model.php	432
+12	257	1	0.028426	1565608
+12	258	0	0.028448	1565608	explode	0		E:\Working\royFramework\royJump\core\model\LZ_Model.php	434
+12	258	1	0.028469	1565744
+12	259	0	0.028489	1566064	strtr	0		E:\Working\royFramework\royJump\core\model\LZ_Model.php	443
+12	259	1	0.028511	1566160
+12	260	0	0.028525	1566160	is_array	0		E:\Working\royFramework\royJump\core\model\LZ_Model.php	448
+12	260	1	0.028543	1566160
+12	261	0	0.028557	1566160	count	0		E:\Working\royFramework\royJump\core\model\LZ_Model.php	450
+12	261	1	0.028576	1566160
+12	262	0	0.028591	1566448	is_numeric	0		E:\Working\royFramework\royJump\core\model\LZ_Model.php	452
+12	262	1	0.028610	1566448
+12	263	0	0.028624	1566448	royMySQL->escape	1		E:\Working\royFramework\royJump\core\model\LZ_Model.php	452
+13	264	0	0.028643	1566496	mysql_escape_string	0		E:\Working\royFramework\royJump\core\model\driver\LZ_MySql.php	124
+13	264	1	0.028664	1566520
+12	263	1	0.028677	1566520
+12	265	0	0.028694	1566520	strtr	0		E:\Working\royFramework\royJump\core\model\LZ_Model.php	455
+12	265	1	0.028714	1566664
+11	255	1	0.028729	1564880
+11	266	0	0.028745	1564880	count	0		E:\Working\royFramework\royJump\core\model\LZ_Model.php	361
+11	266	1	0.028764	1564880
+10	250	1	0.028780	1562904
+10	267	0	0.028797	1562904	join	0		E:\Working\royFramework\royJump\core\model\LZ_Model.php	398
+10	267	1	0.028817	1562904
+9	249	1	0.028830	1561696
+9	268	0	0.028844	1561696	royMySQL->query	1		E:\Working\royFramework\royJump\core\model\LZ_Model.php	110
+10	269	0	0.028866	1561992	mysql_query	0		E:\Working\royFramework\royJump\core\model\driver\LZ_MySql.php	36
+10	269	1	0.028983	1561992
+10	270	0	0.029002	1561992	mysql_query	0		E:\Working\royFramework\royJump\core\model\driver\LZ_MySql.php	37
+10	270	1	0.029237	1561992
+9	268	1	0.029285	1561696
+9	271	0	0.029304	1561696	royMySQL->count	1		E:\Working\royFramework\royJump\core\model\LZ_Model.php	112
+10	272	0	0.029326	1561776	gettype	0		E:\Working\royFramework\royJump\core\model\driver\LZ_MySql.php	116
+10	272	1	0.029346	1561776
+10	273	0	0.029360	1561776	mysql_num_rows	0		E:\Working\royFramework\royJump\core\model\driver\LZ_MySql.php	117
+10	273	1	0.029379	1561776
+9	271	1	0.029393	1561776
+8	226	1	0.029406	1561432
+8	274	0	0.029422	1561432	app::db	1		E:\Working\royFramework\app\Controller\DbTestController.php	18
+8	274	1	0.029444	1561432
+8	275	0	0.029460	1561432	royMySQL->getLastSql	1		E:\Working\royFramework\app\Controller\DbTestController.php	18
+8	275	1	0.029481	1561432
+8	276	0	0.029505	1561432	royModel->fetch	1		E:\Working\royFramework\app\Controller\DbTestController.php	19
+9	277	0	0.029525	1561728	app::db	1		E:\Working\royFramework\royJump\core\model\LZ_Model.php	78
+9	277	1	0.029546	1561728
+9	278	0	0.029561	1561728	royMySQL->fetch	1		E:\Working\royFramework\royJump\core\model\LZ_Model.php	79
+10	279	0	0.029580	1561728	gettype	0		E:\Working\royFramework\royJump\core\model\driver\LZ_MySql.php	92
+10	279	1	0.029599	1561728
+10	280	0	0.029612	1561728	mysql_fetch_assoc	0		E:\Working\royFramework\royJump\core\model\driver\LZ_MySql.php	93
+10	280	1	0.029634	1561728
+9	278	1	0.029648	1561728
+9	281	0	0.029661	1561728	royModel->reset	1		E:\Working\royFramework\royJump\core\model\LZ_Model.php	80
+9	281	1	0.029690	1561728
+9	282	0	0.029705	1561728	royModel->setFields	1		E:\Working\royFramework\royJump\core\model\LZ_Model.php	81
+10	283	0	0.029725	1561728	is_array	0		E:\Working\royFramework\royJump\core\model\LZ_Model.php	293
+10	283	1	0.029744	1561728
+9	282	1	0.029766	1561728
+8	276	1	0.029781	1561432
+8	284	0	0.029795	1561432	royModel->fetch	1		E:\Working\royFramework\app\Controller\DbTestController.php	19
+9	285	0	0.029815	1561728	app::db	1		E:\Working\royFramework\royJump\core\model\LZ_Model.php	78
+9	285	1	0.029835	1561728
+9	286	0	0.029849	1561728	royMySQL->fetch	1		E:\Working\royFramework\royJump\core\model\LZ_Model.php	79
+10	287	0	0.029868	1561728	gettype	0		E:\Working\royFramework\royJump\core\model\driver\LZ_MySql.php	92
+10	287	1	0.029888	1561728
+10	288	0	0.029900	1561728	mysql_fetch_assoc	0		E:\Working\royFramework\royJump\core\model\driver\LZ_MySql.php	93
+10	288	1	0.029921	1561728
+9	286	1	0.029981	1561728
+9	289	0	0.029996	1561728	royModel->reset	1		E:\Working\royFramework\royJump\core\model\LZ_Model.php	80
+9	289	1	0.030022	1561728
+9	290	0	0.030037	1561728	royModel->setFields	1		E:\Working\royFramework\royJump\core\model\LZ_Model.php	81
+10	291	0	0.030056	1561728	is_array	0		E:\Working\royFramework\royJump\core\model\LZ_Model.php	293
+10	291	1	0.030075	1561728
+9	290	1	0.030095	1561728
+8	284	1	0.030110	1561432
+8	292	0	0.030123	1561432	royModel->fetch	1		E:\Working\royFramework\app\Controller\DbTestController.php	19
+9	293	0	0.030143	1561728	app::db	1		E:\Working\royFramework\royJump\core\model\LZ_Model.php	78
+9	293	1	0.030164	1561728
+9	294	0	0.030178	1561728	royMySQL->fetch	1		E:\Working\royFramework\royJump\core\model\LZ_Model.php	79
+10	295	0	0.030197	1561728	gettype	0		E:\Working\royFramework\royJump\core\model\driver\LZ_MySql.php	92
+10	295	1	0.030216	1561728
+10	296	0	0.030229	1561728	mysql_fetch_assoc	0		E:\Working\royFramework\royJump\core\model\driver\LZ_MySql.php	93
+10	296	1	0.030275	1561728
+9	294	1	0.030289	1561728
+9	297	0	0.030302	1561728	royModel->reset	1		E:\Working\royFramework\royJump\core\model\LZ_Model.php	80
+9	297	1	0.030327	1561728
+9	298	0	0.030342	1561728	royModel->setFields	1		E:\Working\royFramework\royJump\core\model\LZ_Model.php	81
+10	299	0	0.030361	1561728	is_array	0		E:\Working\royFramework\royJump\core\model\LZ_Model.php	293
+10	299	1	0.030380	1561728
+9	298	1	0.030400	1561728
+8	292	1	0.030414	1561432
+8	300	0	0.030428	1561432	royModel->fetch	1		E:\Working\royFramework\app\Controller\DbTestController.php	19
+9	301	0	0.030447	1561728	app::db	1		E:\Working\royFramework\royJump\core\model\LZ_Model.php	78
+9	301	1	0.030468	1561728
+9	302	0	0.030483	1561728	royMySQL->fetch	1		E:\Working\royFramework\royJump\core\model\LZ_Model.php	79
+10	303	0	0.030502	1561728	gettype	0		E:\Working\royFramework\royJump\core\model\driver\LZ_MySql.php	92
+10	303	1	0.030521	1561728
+10	304	0	0.030533	1561728	mysql_fetch_assoc	0		E:\Working\royFramework\royJump\core\model\driver\LZ_MySql.php	93
+10	304	1	0.030554	1561728
+9	302	1	0.030567	1561728
+9	305	0	0.030580	1561728	royModel->reset	1		E:\Working\royFramework\royJump\core\model\LZ_Model.php	80
+9	305	1	0.030605	1561728
+9	306	0	0.030619	1561728	royModel->setFields	1		E:\Working\royFramework\royJump\core\model\LZ_Model.php	81
+10	307	0	0.030638	1561728	is_array	0		E:\Working\royFramework\royJump\core\model\LZ_Model.php	293
+10	307	1	0.030657	1561728
+9	306	1	0.030676	1561728
+8	300	1	0.030691	1561432
+8	308	0	0.030705	1561432	royModel->fetch	1		E:\Working\royFramework\app\Controller\DbTestController.php	19
+9	309	0	0.030724	1561728	app::db	1		E:\Working\royFramework\royJump\core\model\LZ_Model.php	78
+9	309	1	0.030745	1561728
+9	310	0	0.030759	1561728	royMySQL->fetch	1		E:\Working\royFramework\royJump\core\model\LZ_Model.php	79
+10	311	0	0.030778	1561728	gettype	0		E:\Working\royFramework\royJump\core\model\driver\LZ_MySql.php	92
+10	311	1	0.030797	1561728
+10	312	0	0.030810	1561728	mysql_fetch_assoc	0		E:\Working\royFramework\royJump\core\model\driver\LZ_MySql.php	93
+10	312	1	0.030830	1561728
+9	310	1	0.030843	1561728
+9	313	0	0.030857	1561728	royModel->reset	1		E:\Working\royFramework\royJump\core\model\LZ_Model.php	80
+9	313	1	0.030881	1561728
+9	314	0	0.030895	1561728	royModel->setFields	1		E:\Working\royFramework\royJump\core\model\LZ_Model.php	81
+10	315	0	0.030915	1561728	is_array	0		E:\Working\royFramework\royJump\core\model\LZ_Model.php	293
+10	315	1	0.030933	1561728
+9	314	1	0.030952	1561728
+8	308	1	0.030967	1561432
+8	316	0	0.030981	1561432	royModel->fetch	1		E:\Working\royFramework\app\Controller\DbTestController.php	19
+9	317	0	0.031000	1561728	app::db	1		E:\Working\royFramework\royJump\core\model\LZ_Model.php	78
+9	317	1	0.031021	1561728
+9	318	0	0.031035	1561728	royMySQL->fetch	1		E:\Working\royFramework\royJump\core\model\LZ_Model.php	79
+10	319	0	0.031054	1561728	gettype	0		E:\Working\royFramework\royJump\core\model\driver\LZ_MySql.php	92
+10	319	1	0.031073	1561728
+10	320	0	0.031085	1561728	mysql_fetch_assoc	0		E:\Working\royFramework\royJump\core\model\driver\LZ_MySql.php	93
+10	320	1	0.031109	1561728
+9	318	1	0.031123	1561728
+9	321	0	0.031136	1561728	royModel->reset	1		E:\Working\royFramework\royJump\core\model\LZ_Model.php	80
+9	321	1	0.031161	1561728
+9	322	0	0.031176	1561728	royModel->setFields	1		E:\Working\royFramework\royJump\core\model\LZ_Model.php	81
+10	323	0	0.031195	1561728	is_array	0		E:\Working\royFramework\royJump\core\model\LZ_Model.php	293
+10	323	1	0.031220	1561728
+9	322	1	0.031240	1561728
+8	316	1	0.031255	1561432
+8	324	0	0.031269	1561432	royModel->fetch	1		E:\Working\royFramework\app\Controller\DbTestController.php	19
+9	325	0	0.031288	1561728	app::db	1		E:\Working\royFramework\royJump\core\model\LZ_Model.php	78
+9	325	1	0.031309	1561728
+9	326	0	0.031323	1561728	royMySQL->fetch	1		E:\Working\royFramework\royJump\core\model\LZ_Model.php	79
+10	327	0	0.031342	1561728	gettype	0		E:\Working\royFramework\royJump\core\model\driver\LZ_MySql.php	92
+10	327	1	0.031361	1561728
+10	328	0	0.031373	1561728	mysql_fetch_assoc	0		E:\Working\royFramework\royJump\core\model\driver\LZ_MySql.php	93
+10	328	1	0.031394	1561728
+9	326	1	0.031408	1561728
+9	329	0	0.031421	1561728	royModel->reset	1		E:\Working\royFramework\royJump\core\model\LZ_Model.php	80
+9	329	1	0.031446	1561728
+9	330	0	0.031460	1561728	royModel->setFields	1		E:\Working\royFramework\royJump\core\model\LZ_Model.php	81
+10	331	0	0.031479	1561728	is_array	0		E:\Working\royFramework\royJump\core\model\LZ_Model.php	293
+10	331	1	0.031498	1561728
+9	330	1	0.031517	1561728
+8	324	1	0.031532	1561432
+8	332	0	0.031545	1561432	royModel->fetch	1		E:\Working\royFramework\app\Controller\DbTestController.php	19
+9	333	0	0.031564	1561728	app::db	1		E:\Working\royFramework\royJump\core\model\LZ_Model.php	78
+9	333	1	0.031585	1561728
+9	334	0	0.031599	1561728	royMySQL->fetch	1		E:\Working\royFramework\royJump\core\model\LZ_Model.php	79
+10	335	0	0.031618	1561728	gettype	0		E:\Working\royFramework\royJump\core\model\driver\LZ_MySql.php	92
+10	335	1	0.031637	1561728
+10	336	0	0.031649	1561728	mysql_fetch_assoc	0		E:\Working\royFramework\royJump\core\model\driver\LZ_MySql.php	93
+10	336	1	0.031668	1561728
+9	334	1	0.031681	1561728
+9	337	0	0.031695	1561728	royModel->reset	1		E:\Working\royFramework\royJump\core\model\LZ_Model.php	80
+9	337	1	0.031720	1561728
+9	338	0	0.031734	1561728	royModel->setFields	1		E:\Working\royFramework\royJump\core\model\LZ_Model.php	81
+10	339	0	0.031753	1561728	is_array	0		E:\Working\royFramework\royJump\core\model\LZ_Model.php	293
+10	339	1	0.031771	1561728
+9	338	1	0.031785	1561728
+8	332	1	0.031798	1561432
+8	340	0	0.031813	1561432	royController->displayInfo	1		E:\Working\royFramework\app\Controller\DbTestController.php	39
+9	341	0	0.031887	1561752	debug_backtrace	0		E:\Working\royFramework\royJump\core\Controller\LZ_Controller.php	88
+9	341	1	0.031929	1565184
+9	342	0	0.031951	1565480	var_dump	0		E:\Working\royFramework\royJump\core\Controller\LZ_Controller.php	97
+9	342	1	0.031982	1565480
+8	340	1	0.031997	1565160
+8	343	0	0.032017	1565160	app::_getTestUriList	1		E:\Working\royFramework\app\Controller\DbTestController.php	40
+9	344	0	0.032037	1566176	app::conf	1		E:\Working\royFramework\app\app.php	19
+9	344	1	0.032059	1566176
+9	345	0	0.032075	1566176	file_get_contents	0		E:\Working\royFramework\app\app.php	20
+9	345	1	0.032302	1566744
+9	346	0	0.032320	1566744	explode	0		E:\Working\royFramework\app\app.php	21
+9	346	1	0.032346	1566744
+9	347	0	0.032362	1566744	trim	0		E:\Working\royFramework\app\app.php	24
+9	347	1	0.032381	1566744
+9	348	0	0.032395	1566744	preg_match	0		E:\Working\royFramework\app\app.php	26
+9	348	1	0.032421	1566744
+9	349	0	0.032436	1566744	trim	0		E:\Working\royFramework\app\app.php	24
+9	349	1	0.032455	1566744
+9	350	0	0.032468	1566744	preg_match	0		E:\Working\royFramework\app\app.php	26
+9	350	1	0.032487	1566744
+9	351	0	0.032502	1566744	trim	0		E:\Working\royFramework\app\app.php	24
+9	351	1	0.032521	1566744
+9	352	0	0.032533	1566744	preg_match	0		E:\Working\royFramework\app\app.php	26
+9	352	1	0.032554	1566744
+9	353	0	0.032572	1566744	trim	0		E:\Working\royFramework\app\app.php	24
+9	353	1	0.032591	1566744
+9	354	0	0.032603	1566744	preg_match	0		E:\Working\royFramework\app\app.php	26
+9	354	1	0.032623	1566744
+9	355	0	0.032636	1566744	explode	0		E:\Working\royFramework\app\app.php	32
+9	355	1	0.032655	1566744
+9	356	0	0.032672	1567040	trim	0		E:\Working\royFramework\app\app.php	24
+9	356	1	0.032691	1567040
+9	357	0	0.032704	1567040	trim	0		E:\Working\royFramework\app\app.php	24
+9	357	1	0.032722	1567040
+9	358	0	0.032735	1567040	preg_match	0		E:\Working\royFramework\app\app.php	26
+9	358	1	0.032756	1567040
+9	359	0	0.032770	1567048	trim	0		E:\Working\royFramework\app\app.php	24
+9	359	1	0.032788	1567048
+9	360	0	0.032801	1567048	trim	0		E:\Working\royFramework\app\app.php	24
+9	360	1	0.032819	1567048
+9	361	0	0.032832	1567048	preg_match	0		E:\Working\royFramework\app\app.php	26
+9	361	1	0.032853	1567048
+9	362	0	0.032867	1567064	trim	0		E:\Working\royFramework\app\app.php	24
+9	362	1	0.032885	1567064
+9	363	0	0.032898	1567064	preg_match	0		E:\Working\royFramework\app\app.php	26
+9	363	1	0.032918	1567064
+9	364	0	0.032931	1567064	explode	0		E:\Working\royFramework\app\app.php	32
+9	364	1	0.032950	1567064
+9	365	0	0.032965	1567336	trim	0		E:\Working\royFramework\app\app.php	24
+9	365	1	0.032983	1567336
+9	366	0	0.032996	1567336	trim	0		E:\Working\royFramework\app\app.php	24
+9	366	1	0.033014	1567336
+9	367	0	0.033027	1567336	preg_match	0		E:\Working\royFramework\app\app.php	26
+9	367	1	0.033047	1567336
+9	368	0	0.033061	1567352	trim	0		E:\Working\royFramework\app\app.php	24
+9	368	1	0.033080	1567352
+9	369	0	0.033093	1567352	preg_match	0		E:\Working\royFramework\app\app.php	26
+9	369	1	0.033112	1567352
+9	370	0	0.033125	1567352	explode	0		E:\Working\royFramework\app\app.php	32
+9	370	1	0.033144	1567352
+9	371	0	0.033160	1567536	trim	0		E:\Working\royFramework\app\app.php	24
+9	371	1	0.033198	1567536
+9	372	0	0.033211	1567536	trim	0		E:\Working\royFramework\app\app.php	24
+9	372	1	0.033230	1567536
+9	373	0	0.033242	1567536	preg_match	0		E:\Working\royFramework\app\app.php	26
+9	373	1	0.033264	1567536
+9	374	0	0.033278	1567560	trim	0		E:\Working\royFramework\app\app.php	24
+9	374	1	0.033297	1567560
+9	375	0	0.033310	1567560	preg_match	0		E:\Working\royFramework\app\app.php	26
+9	375	1	0.033330	1567560
+9	376	0	0.033342	1567560	explode	0		E:\Working\royFramework\app\app.php	32
+9	376	1	0.033361	1567560
+9	377	0	0.033377	1567632	trim	0		E:\Working\royFramework\app\app.php	24
+9	377	1	0.033396	1567632
+9	378	0	0.033408	1567632	preg_match	0		E:\Working\royFramework\app\app.php	26
+9	378	1	0.033430	1567632
+9	379	0	0.033444	1567632	explode	0		E:\Working\royFramework\app\app.php	32
+9	379	1	0.033462	1567632
+9	380	0	0.033477	1567720	trim	0		E:\Working\royFramework\app\app.php	24
+9	380	1	0.033496	1567720
+9	381	0	0.033509	1567720	preg_match	0		E:\Working\royFramework\app\app.php	26
+9	381	1	0.033528	1567720
+9	382	0	0.033541	1567720	explode	0		E:\Working\royFramework\app\app.php	32
+9	382	1	0.033560	1567720
+9	383	0	0.033576	1567904	trim	0		E:\Working\royFramework\app\app.php	24
+9	383	1	0.033594	1567904
+9	384	0	0.033607	1567904	preg_match	0		E:\Working\royFramework\app\app.php	26
+9	384	1	0.033626	1567904
+9	385	0	0.033639	1567904	explode	0		E:\Working\royFramework\app\app.php	32
+9	385	1	0.033658	1567904
+9	386	0	0.033673	1567976	trim	0		E:\Working\royFramework\app\app.php	24
+9	386	1	0.033692	1567976
+9	387	0	0.033705	1567976	trim	0		E:\Working\royFramework\app\app.php	24
+9	387	1	0.033723	1567976
+9	388	0	0.033736	1567976	preg_match	0		E:\Working\royFramework\app\app.php	26
+9	388	1	0.033756	1567976
+9	389	0	0.033771	1568032	trim	0		E:\Working\royFramework\app\app.php	24
+9	389	1	0.033790	1568032
+9	390	0	0.033803	1568032	preg_match	0		E:\Working\royFramework\app\app.php	26
+9	390	1	0.033822	1568032
+9	391	0	0.033835	1568032	explode	0		E:\Working\royFramework\app\app.php	32
+9	391	1	0.033854	1568032
+9	392	0	0.033869	1568120	trim	0		E:\Working\royFramework\app\app.php	24
+9	392	1	0.033888	1568120
+9	393	0	0.033901	1568120	preg_match	0		E:\Working\royFramework\app\app.php	26
+9	393	1	0.033923	1568120
+9	394	0	0.033936	1568120	explode	0		E:\Working\royFramework\app\app.php	32
+9	394	1	0.033955	1568120
+9	395	0	0.033971	1568208	trim	0		E:\Working\royFramework\app\app.php	24
+9	395	1	0.033989	1568208
+9	396	0	0.034002	1568208	preg_match	0		E:\Working\royFramework\app\app.php	26
+9	396	1	0.034021	1568208
+9	397	0	0.034034	1568208	explode	0		E:\Working\royFramework\app\app.php	32
+9	397	1	0.034053	1568208
+9	398	0	0.034069	1568368	trim	0		E:\Working\royFramework\app\app.php	24
+9	398	1	0.034087	1568368
+9	399	0	0.034100	1568368	preg_match	0		E:\Working\royFramework\app\app.php	26
+9	399	1	0.034120	1568368
+9	400	0	0.034133	1568368	explode	0		E:\Working\royFramework\app\app.php	32
+9	400	1	0.034159	1568368
+9	401	0	0.034174	1568448	trim	0		E:\Working\royFramework\app\app.php	24
+9	401	1	0.034193	1568448
+8	343	1	0.034208	1567432
+7	182	1	0.034229	1565112
+6	180	1	0.034251	1565112
+5	166	1	0.034268	1564504
+4	147	1	0.034286	1563728
+3	84	1	0.034303	1562184
+2	59	1	0.034320	1561336
+2	402	0	0.034336	1561336	caclutime	1		E:\Working\royFramework\index.php	50
+3	403	0	0.034355	1561536	microtime	0		E:\Working\royFramework\index.php	15
+3	403	1	0.034384	1561536
+3	404	0	0.034397	1561536	explode	0		E:\Working\royFramework\index.php	15
+3	404	1	0.034416	1561536
+2	402	1	0.034433	1561536
+2	405	0	0.034452	1561536	round	0		E:\Working\royFramework\index.php	52
+2	405	1	0.034472	1561536
+2	406	0	0.034486	1561536	round	0		E:\Working\royFramework\index.php	53
+2	406	1	0.034504	1561536
+2	407	0	0.034517	1561536	round	0		E:\Working\royFramework\index.php	54
+2	407	1	0.034535	1561536
+2	408	0	0.034554	1561536	memory_get_usage	0		E:\Working\royFramework\index.php	57
+2	408	1	0.034573	1561536
+2	409	0	0.034585	1561536	round	0		E:\Working\royFramework\index.php	57
+2	409	1	0.034603	1561536
+2	410	0	0.034747	1562696	include	1	E:\Working\royFramework\debug\auto_append.php	E:\Working\royFramework\index.php	58
+3	411	0	0.034770	1562696	debug_stop	1		E:\Working\royFramework\debug\auto_append.php	3
+4	412	0	0.034791	1562696	defined	0		E:\Working\royFramework\debug\lib\debug.php	1391
+4	412	1	0.034812	1562696
+4	413	0	0.034825	1562696	xdebug_stop_trace	0		E:\Working\royFramework\debug\lib\debug.php	1392
+			0.034853	1562696
+TRACE END   [2010-01-02 16:48:41]
+

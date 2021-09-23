@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+
+body,h1,code{
+	font-family: Verdana, Geneva, sans-serif
+}
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font-size: 14px;
+	color: #515257;
+}
+
+a {
+	color: #069;
+	text-decoration: underline;
+}
+
+a:hover {
+	color: #066;
+}
+
+h1 { 
+	font-size: 24px;
+	color: #FFF;
+	background-color: #286190;
+	padding: 10px;
+}
+
+code {
+	font-size: 12px;
+	background-color: #F5F5F5;
+	border: 1px dashed #CCC;
+	color: #036;
+	display: block;
+	padding: 10px;
+}
+
+#description{ padding: 10px; }
+
+#content{
+	padding: 10px;
+}

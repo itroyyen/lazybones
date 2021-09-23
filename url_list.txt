@@ -1,0 +1,24 @@
+[default]
+/
+[Other]
+自動路由無限參數=/db_test/index/aaa/bbb/ccc/ddd
+
+[Map]
+
+[JSON]
+/hello/json/test.json
+
+[Hello]
+無限參數=/hello/Say Hello World!!
+
+[單一過濾器]
+URL重新導向=/test_filter/google
+控制項重新導向Main=/test_filter/main
+控制項重新導向Error=/test_filter/error
+無匹配=/test_filter/any_word
+
+[整體過濾器]
+URL重新導向=/test_all_filter/google
+控制項重新導向Main=/test_all_filter/main
+控制項重新導向Error=/test_all_filter/error
+無匹配=/test_all_filter/any_word
